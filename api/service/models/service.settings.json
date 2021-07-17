@@ -49,6 +49,16 @@
     "category": {
       "model": "category",
       "via": "services"
+    },
+    "metaTitle": {
+      "type": "string",
+      "unique": true
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "metaKeyword": {
+      "type": "string"
     }
   }
 }
